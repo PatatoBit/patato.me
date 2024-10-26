@@ -1,12 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap');
+
 html,
 body {
 	font-family: 'OpenRunde', sans-serif;
+}
+
+h1 {
+	font-weight: bold;
+}
+
+p {
+	font-family: 'OpenRunde Regular';
+}
+
+.label {
+	color: var(--label);
+
+	font-family: 'Reddit Mono', monospace;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.wrapper {
+	max-width: 40rem;
+	width: 100%;
+	margin-inline: auto;
+}
+
+@font-face {
+	font-family: 'OpenRunde Regular';
+	src: url('/fonts/OpenRunde/OpenRunde-Regular.woff2') format('woff2');
 	font-weight: normal;
+	font-style: normal;
 }
 
 @font-face {
 	font-family: 'OpenRunde';
-	src: local('/fonts/OpenRunde/OpenRunde-Regular.woff2') format('woff2');
-	font-weight: normal;
+	src: url('/fonts/OpenRunde/OpenRunde-Bold.woff2') format('woff2');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'OpenRunde';
+	src: url('/fonts/OpenRunde/OpenRunde-Medium.woff2') format('woff2');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'OpenRunde';
+	src: url('/fonts/OpenRunde/OpenRunde-Semibold.woff2') format('woff2');
+	font-weight: semibold;
 	font-style: normal;
 }
